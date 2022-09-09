@@ -1,0 +1,9 @@
+#!/bin/bash
+
+count=$1
+while [[ $count -gt "0" ]];
+do
+  count=$((count - 1))
+  ./mqtt_client/target/debug/mqtt_client "$count" &
+done
+

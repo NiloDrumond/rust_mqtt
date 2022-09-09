@@ -641,6 +641,7 @@ dependencies = [
  "confy 0.5.0",
  "pretty_env_logger",
  "rumqttd",
+ "tokio",
 ]
 
 [[package]]
